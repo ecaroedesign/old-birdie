@@ -1,0 +1,162 @@
+/* #5E07B2 - purple colour
+#0D0026 - purple black
+#210055 - dark purple */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+/* GENERAL STYLES */
+h1 {
+  font-family: "Caveat", serif;
+}
+
+h2 {
+  font-family: "Caveat", serif;
+}
+
+h3 {
+  font-family: "Rubik", sans-serif;
+}
+
+p {
+  font-family: "Rubik", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  color: #F1F1F1;
+}
+
+.ob-text {
+  color: #210055;
+  font-size: 3.5em;
+}
+
+.nav-link {
+  font-family: "Rubik", sans-serif;
+  text-decoration: none;
+  padding: 1.5em;
+  color: #0D0026;
+}
+
+.nav-link:hover {
+  color: #5E07B2;
+}
+
+.button-text {
+ font-family: "Caveat", serif;
+ color: #0D0026;
+ background-color: #F1F1F1;
+ border: none;
+ width: 8em;
+ height: 3em;
+ border-radius: 12px;
+ padding: none;
+ margin: none;
+}
+
+/* HOME STYLES */
+.img-container {
+  position: relative;
+  text-align: center;
+}
+
+.header-p {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(100%, 100%);
+  color: white;
+}
+
+.home-heading{
+  font-size: 2.5em;
+  color: #210055;
+}
+
+.home-p{
+  font-size: 1.3em;
+  color: #0D0026;
+}
+
+.values-p {
+  line-height: 4em;
+  padding: 2em;
+}
+
+.joinsocials-p {
+  line-height: 4em;
+  padding: 2em;
+}
+
+.news-p {
+  line-height: 4em;
+  padding: 2em;
+}
+
+.social-link {
+  color: #210055;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  color: #5E07B2;
+}
+
+.input-box {
+  background-color: #F1F1F1;
+  width: 30em;
+  height: 3em;
+  border-radius: 12px;
+  border:none;
+}
+
+::placeholder {
+  color: black;
+  opacity: 50%;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+/* INFO PAGE */
+.about-p {
+  line-height: 4em;
+  padding: 2em;
+}
+
+.info-p{
+  line-height: 4em;
+  padding: 2em;
+}
+
+
+/* SOCIALS FOOTER */
+.socials-heading {
+  font-size: 1.3em;
+}
+
+.fa-brands {
+  font-size: 3em;
+}
+
+.privacy-heading {
+  font-size: 2.5em;
+  color: #210055;
+}
+
+.lorem-p {
+  line-height: 1em;
+  padding: 2em;
+  font-size: 1em;
+}
+
+footer {
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  color: #210055;
+  line-height: 2em;
+}
